@@ -1,0 +1,15 @@
+{
+  "name": "My American Journey — Tu camino hacia la ciudadanía",
+  "short_name": "American Journey",
+  "description": "Estudia, practica y prepárate para el examen de ciudadanía de EE. UU. (USCIS), en español e inglés.",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#1E3A8A",
+  "lang": "es",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
+  ]
+}

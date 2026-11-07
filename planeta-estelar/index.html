@@ -803,9 +803,11 @@ body.dark .gate-error{background:#3c2233;color:#f3b8c6}
   <button class="soft-button" id="changeTheme">Cambiar tema</button>
  </div>
  <div class="feature">
-  <h3>Exportar información</h3>
-  <p>Descarga una copia de tus datos.</p>
-  <button class="soft-button" id="export">Exportar JSON</button>
+  <h3>Respaldo</h3>
+  <p>Descarga un respaldo de tus datos o restaura uno que hayas descargado antes.</p>
+  <button class="soft-button" id="export">Exportar respaldo</button>
+  <button class="soft-button" id="importBtn" style="margin-top:8px">Importar respaldo</button>
+  <input type="file" id="importFile" accept=".json,application/json" hidden />
  </div>
  <div class="feature">
   <h3>Cerrar acceso</h3>

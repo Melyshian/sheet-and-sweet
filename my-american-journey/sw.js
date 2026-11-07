@@ -1,7 +1,7 @@
 /* My American Journey — Service Worker (PWA).
    La app sigue siendo una página web: esto solo deja ponerle un ícono
    en la pantalla de inicio y abrirla sin internet. Sin APK, sin tiendas. */
-var CACHE = "maj-v2";
+var CACHE = "maj-v3";
 var NUCLEO = ["./", "./index.html", "./manifest.json", "./icon-192.png", "./icon-512.png"];
 self.addEventListener("install", function(ev){
   ev.waitUntil(caches.open(CACHE).then(function(c){ return c.addAll(NUCLEO); }).catch(function(){}));
